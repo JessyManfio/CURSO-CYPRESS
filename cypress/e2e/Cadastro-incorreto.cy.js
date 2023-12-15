@@ -1,6 +1,6 @@
 describe('Pagina de cadastro', () => {
   it('Preencher os campos do formulario de forma incorreta', () => {
-    cy.visit('http://localhost:4200/#/home')
+    cy.visit('https://3076-cypress-alurapic-front.vercel.app/')
     cy.contains('a','Register now').click();
     cy.contains('button','Register').click();
     cy.contains('button','Register').click();

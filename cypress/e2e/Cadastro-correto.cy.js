@@ -1,6 +1,6 @@
 describe('Pagina de cadastro', () => {
   it('Preencher os campos do formulario corretamente para cadastrar um novo usuario', () => {
-    cy.visit('http://localhost:4200/#/home')
+    cy.visit('https://3076-cypress-alurapic-front.vercel.app/')
     cy.contains('a','Register now').click();
     cy.get('[data-test="email"]').type('jessi@testando.com.br')
     cy.get('[data-test="fullName"]').type('jessi manfio silva ')
