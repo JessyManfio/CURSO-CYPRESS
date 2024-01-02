@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 describe('Página de login', () => {
 
     beforeEach(() => {
@@ -11,7 +11,7 @@ describe('Página de login', () => {
         
         })
 })
-=======
+
 describe('Pagina de Login', () => {
     it('Verificar mensagens de campos obrigatórios', () => {
       cy.visit('https://3076-cypress-alurapic-front.vercel.app/')
@@ -20,4 +20,4 @@ describe('Pagina de Login', () => {
       
     })
   })
->>>>>>> c5089fe17af5d6e59394665f87f638e826d85b16
+
